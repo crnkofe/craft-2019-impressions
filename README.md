@@ -23,9 +23,9 @@ I assume that means to show a bit of empathy towards everyone, rather than be he
 2. Adjust your behaviour
 According to Michael we normally tend to remain who we are regardless of the situation. We don't really adjust even though we can in order to influence others.
 Some basic options are to (from the BEAR):
-- push
-- pull back
-- withdraw
+	- push
+	- pull back
+	- withdraw
 3. Repeat the last 3 words of the person who you're talking to.
 Repetition does feel really akwards but that is basically I'm not really used to doing that. Many speakers at the conference did exactly this many times (which I've noticed after it was explicitely pointed out by a speaker).
 So the thing is that at least I don't even notice that from going on. According to Michael repeating words like this shows you're listening (and caring) to the other person.
@@ -46,10 +46,10 @@ I find that the more the domain is complex the larger semantic gap becomes, whic
 Takeaways:
 1. The majority of features delivers 0 value (tested at Amazon)
 2. Metrics that are best to observer are:
-- deploy frequency
-- lead time to change
-- change fail rate
-- time to restore service
+	- deploy frequency
+	- lead time to change
+	- change fail rate
+	- time to restore service
 3. Read the book: Accelerate DevOps
 4. A distinction should be made between monitoring and observability.
 5. If Q/A writes tests that statistically doesn't affect delivery. They will be unhappy about this when I'll tell them.
@@ -115,18 +115,18 @@ There are other ways of rebuilding statistics(which I'll need to check on mah ev
 
 Heidi made us go into a circle and practice head first coaching(according to her co-active coaching). It was awkward and rewarding.
 Some basics of coaching:
-- listen to what the other person is saying (not yourself)
-- mirror the other person 
-- repeat and/or paraphrase them (so they know you're paying attention)
-- use powerfull open-ended WHAT questions
+	- listen to what the other person is saying (not yourself)
+	- mirror the other person 
+	- repeat and/or paraphrase them (so they know you're paying attention)
+	- use powerfull open-ended WHAT questions
 
 It looked easy but I found it was very difficult.
 
 Some takeaways:
-- coaching is a way of helping a person/team/org move from point A forward
-- coaching is not therapy, if things get personal it's better to refere the person coached to a specialist that can deal with that
-- coaching is not counseling or mentorship(giving an opinion, advice, argumented study) - you want to help the person coached help themselves (because the coach doesn't really know where they want to go) 
-- a typical coaching session may look like this: let the person coached vent, ask them what problem they want to solve, use techniques mentioned to help them solve their own problems and end by taking some accountabiliy(like call me when done with what you intended to do by some time)
+	- coaching is a way of helping a person/team/org move from point A forward
+	- coaching is not therapy, if things get personal it's better to refere the person coached to a specialist that can deal with that
+	- coaching is not counseling or mentorship(giving an opinion, advice, argumented study) - you want to help the person coached help themselves (because the coach doesn't really know where they want to go) 
+	- a typical coaching session may look like this: let the person coached vent, ask them what problem they want to solve, use techniques mentioned to help them solve their own problems and end by taking some accountabiliy(like call me when done with what you intended to do by some time)
 
 ### Dev and Test Agility for your Database with Docker, Julie Lerman
 
