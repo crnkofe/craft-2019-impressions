@@ -63,8 +63,8 @@ Some ways of influencing others:
 
 3. Repeat the last 3 words of the person who you're talking to.
 
-	Repetition does feel really akwards but that is basically I'm not really used to doing that. Many speakers at the conference did exactly this many times (which I've noticed after it was explicitely pointed out by a speaker).
-	So the thing is that at least I don't even notice that from going on. According to Michael repeating words like this shows you're listening (and caring) to the other person.
+	Repetition does feel rather akward probably because I'm not really used to doing it. Many speakers at the conference did it all the time (which I've noticed after it was explicitely pointed out).
+	According to Michael repeating words like this shows you're listening (and caring) about the person you're talking to.
 
 ### Domain-Driven Design: Hidden Lessons from the Big Blue Book, Nick Tune
 
