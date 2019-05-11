@@ -20,8 +20,9 @@ Event though we can handle a lot of data today (or so I feel) we're basically st
 ### Cynefin, Dave Snowden
 
 Cynefin is process framework for developing software. According to Snowden agile is now commoditized and ready to be evolved into something better.
-On several talks I've heard the mention of POST-Agile. I guess people are as fed-up with all the buzzwords as I am. I'd need to read a bit more on dwthe
-Cynefin to actually be more convinced of its practical utility. My impression was that it was more of an academic taxonomy rather than something I can go and apply in the workplace.
+On several talks I've heard the mention of *POST-Agile*. I guess people are as fed-up with all the buzzwords as I am.
+
+I'd need to read a bit more on Cynefin to actually be more convinced of its practical utility. My impression was that it was more of an academic taxonomy rather than something I can go and apply in the workplace.
 
 ###  Deliberate Advice from an Accidental Career, Daniel Terhorst-North
 
@@ -51,17 +52,17 @@ Nobody however gives a sensible explanation of how this even can work in practic
 
 Some ways of influencing others:
 1. Give them the benefit of a doubt
-Essentially we're all in the same mess. If the company is doing bad everyone is influenced by that including people I might not like that much.
-I assume that means to show a bit of empathy towards everyone, rather than be held back by early judgements.
+	Essentially we're all in the same mess. If the company is doing bad everyone is influenced by that including people I might not like that much.
+	I assume that means to show a bit of empathy towards everyone, rather than be held back by early judgements.
 2. Adjust your behaviour
-According to Michael we normally tend to remain who we are regardless of the situation. We don't really adjust even though we can in order to influence others.
-Some basic options are to (from the BEAR):
-	- push
-	- pull back
-	- withdraw
+	According to Michael we normally tend to remain who we are regardless of the situation. We don't really adjust even though we can in order to influence others.
+	Some basic options are to (from the BEAR):
+		- push
+		- pull back
+		- withdraw
 3. Repeat the last 3 words of the person who you're talking to.
-Repetition does feel really akwards but that is basically I'm not really used to doing that. Many speakers at the conference did exactly this many times (which I've noticed after it was explicitely pointed out by a speaker).
-So the thing is that at least I don't even notice that from going on. According to Michael repeating words like this shows you're listening (and caring) to the other person.
+	Repetition does feel really akwards but that is basically I'm not really used to doing that. Many speakers at the conference did exactly this many times (which I've noticed after it was explicitely pointed out by a speaker).
+	So the thing is that at least I don't even notice that from going on. According to Michael repeating words like this shows you're listening (and caring) to the other person.
 
 ### Domain-Driven Design: Hidden Lessons from the Big Blue Book, Nick Tune
 
@@ -69,7 +70,7 @@ I admit I've read this book many years ago and more or less completely forgot ab
 
 Advice:
 1. Event storming is a technique that allows non-techies to equally participate in modelling the domain. I'm definitely going to try this out on unsuspecting teammates.
-I find that the more the domain is complex the larger semantic gap becomes, which eventually leads to conflicts, misunderstandings, mistakes and delay so having some tools to ameliorate the gap would be really helpful.
+	I find that the more the domain is complex the larger semantic gap becomes, which eventually leads to conflicts, misunderstandings, mistakes and delay so having some tools to ameliorate the gap would be really helpful.
 2. There is an (awesome-eventstorming)[https://github.com/mariuszgil/awesome-eventstorming] list of suggested practices.
 3. The big blue book is a book of heuristics. There is not silver bullet (still)
 4. Bounded context basically implies the team, that is behind it. Even if other teams don't want to change the domain to clarify responsibilities it's still possible for one team to go all-out and start the propert transition.
@@ -115,14 +116,14 @@ I guess I don't really know all that much about computing/organizational history
 This was my favorite tech talk of the conference. Lots of stuff to put on my TODO list:
 1. Use serverless for own code and docker for others. 
 2. Double exponential smoothing (Atlas)
-For jagged timeseries basically apply a smoothing function to get nicer curves which can then be fed into a smart algorithm for detecting outages.
+	For jagged timeseries basically apply a smoothing function to get nicer curves which can then be fed into a smart algorithm for detecting outages.
 3. Bussiness metrics are more important than CPU use.
 4. If an alert is fired once and never again that likely means it's a random encounter. Alerts should be put on failure rate.
 5. t-digest (Elastic) - this was briefly mentioned but goes on my TODO list
 6. Cumulative flow diagram (for queues show consumption and generation of messages - to find patterns where consumption severly falls due to failures or other reasons)
 7. Rendez-Vous caching 
-I knew what hotspots are but haven't seen a nice existing hash function that avoids hotspotting. Basically when a request hits a distributed system (load balancer or queue)
-hashes get used to select which process/machine gets to process it to nicely evenly distribute processing of requests.
+	I knew what hotspots are but haven't seen a nice existing hash function that avoids hotspotting. Basically when a request hits a distributed system (load balancer or queue)
+	hashes get used to select which process/machine gets to process it to nicely evenly distribute processing of requests.
 8. Using 2nd order (think movement, speed, acceleration(2nd derivative by time)) metrics has a lot of added value for monitoring systems.
 
 ### Unlearning - The Challenge of Change, Jessie Shternshus
