@@ -6,7 +6,40 @@ Here's a compilation of reflections, rants and pure gibberish from CRAFT 2019 co
 
 ### When the universe calls, Pamela Gay
 
-The interesting 
+The interesting fact about this talk was that using the wisdom of the crowd it's possible to be as smart or smarter than a much smaller group of experts.
+This was used on a project moon mappers where images of moon surface at very high resolution were tagged with craters and hills which was subsequently filled
+to a ML algorithm to attempt to predict what is a crater or not. The result was still far from perfect.
+
+A bit differently galaxy classification was done so at first researchers would classify galaxies but then that was fed to ML algorithms to predict the type of galaxy.
+
+The things is that as our sensors got better the amount of data skyrocketed. For the recent observations where the entire Earth was changed into one giant telescope
+the result was measured in petabytes and was sent by mail (as in the good old days).
+
+Event though we can handle a lot of data today (or so I feel) we're basically still just scratching the surface when it comes to space.
+
+### Cynefin, Dave Snowden
+
+Cynefin is process framework for developing software. According to Snowden agile is now commoditized and ready to be evolved into something better.
+On several talks I've heard the mention of POST-Agile. I guess people are as fed-up with all the buzzwords as I am. I'd need to read a bit more on dwthe
+Cynefin to actually be more convinced of its practical utility. My impression was that it was more of an academic taxonomy rather than something I can go and apply in the workplace.
+
+###  Deliberate Advice from an Accidental Career, Daniel Terhorst-North
+
+I've listened to this talk at my first CRAFT conference and in my mind it's still fresh. The anecdotes stick. Or as Dan said "people will never forget how you made them feel".
+As a techy I spend most of my time lost in technical details of one or another part of legacy and often tend to forget that a lot of significant problems are not really technical issues.
+
+### Cultivating Instinct, Katrina Owen
+
+There was a nice anecode on diagnosing sex of chickens which at some point in our history was a serious problems. Since its difficult(and expensive) to separate male and female chicks
+people were trained to figure it out. However correctly separating one from another was largely a matter of experience and gut feeling rather than actual physical traits.
+So the japanese devised a system, where a novice would learn together with an expert for two years and by the end they would be able to do it extremely well without really knowing how they do it.
+
+It was shown that a group of random people could be trained to orient themselves on the map on a plane by showing them enough different exercises. 
+It regularly happens that pilots land somewhere unexpected simply because they get lost.
+
+Parallels were made with how programmers today solve problems where some people easily recognize complex problems at a glance while others puzzle for hours with no solution.
+The question is how could we apply knowledge of learning the unconscious part of the brain faster than just learning by failing multitudes of times. 
+I guess the mentioned exercism.io was an experiment in doing so. Need to check it out still.
 
 ## Talks I attended
 
@@ -45,14 +78,14 @@ I find that the more the domain is complex the larger semantic gap becomes, whic
 
 Takeaways:
 1. The majority of features delivers 0 value (tested at Amazon)
-2. Metrics that are best to observer are:
+2. Metrics that are best to observe are:
 	- deploy frequency
 	- lead time to change
 	- change fail rate
 	- time to restore service
 3. Read the book: Accelerate DevOps
 4. A distinction should be made between monitoring and observability.
-5. If Q/A writes tests that statistically doesn't affect delivery. They will be unhappy about this when I'll tell them.
+5. If Q/A writes tests that statistically doesn't affect delivery. They will be unhappy about this when I tell them.
 6. Westrum typology to measure culture - this is the reason why conferences are awesome. I need to dig deeper into DevOps at another opportunity.
 7. Using displays (for effective work-in-progress) statistically affects performance
 
@@ -113,14 +146,15 @@ There are other ways of rebuilding statistics(which I'll need to check on mah ev
 
 ### A Practical Introduction to Coaching (hands-on session), Heidi Helfand
 
-Heidi made us go into a circle and practice head first coaching(according to her co-active coaching). It was awkward and rewarding.
+Heidi made us go into a circle and practice head first coaching(co-active coaching). All-and-all it was awkward and somewhat rewarding.
+
 Some basics of coaching:
 	- listen to what the other person is saying (not yourself)
 	- mirror the other person 
 	- repeat and/or paraphrase them (so they know you're paying attention)
-	- use powerfull open-ended WHAT questions
+	- use powerfull open-ended WHAT questions to guide conversation
 
-It looked easy but I found it was very difficult.
+It looked easy at first but I found it was quite difficult to put it all together.
 
 Some takeaways:
 	- coaching is a way of helping a person/team/org move from point A forward
@@ -142,4 +176,3 @@ or just put everythin on stick-it notes, or basically just use weak, easy to rem
 
 The idea is that we can eventually ditch the password field. The thing is that everywhere where MFA is used, I also always encounter the password.
 So if the password was ditched in favour of a HW key this idea would be great. If not however this just basically even further complicates the system.
-
