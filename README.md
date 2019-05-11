@@ -60,6 +60,7 @@ Some ways of influencing others:
 
 	According to Michael we normally tend to remain who we are regardless of the situation. We don't really adjust even though we can in order to influence others.
 	Some basic options are to (from the BEAR):
+
 		- push
 		- pull back
 		- withdraw
